@@ -14,18 +14,18 @@
 
   You are get access token for usage.
 
-- To add an item, send `post` request on `/api/add` with data:
+- To add an item, send `post` request on `/api/dishes/add` with data:
     - title: **< name of the item >**
     - price: **< price of the item >**
     - access_token: **< your token >**
     
-- To edit an item, send `patch` request on `/api/edit/<item id>` with data:
+- To edit an item, send `patch` request on `/api/dishes/edit/<item id>` with data:
     - title: **< name of the item >**
     - price: **< price of the item >**
     - access_token: **< your token >**
     
-- To remove an item, send `delete` request on `/api/remove/<item id>`
+- To remove an item, send `delete` request on `/api/dishes/remove/<item id>`
     - access_token: **< your token >**
 
-- To show all items in `json`, send `get` request on `/api/show` or `/api/show.json`
-- To show all items in `xml`, send `get` request on `/api/show.xml`
+- To show all items in `json`, send `get` request on `/api/dishes/show` or `/api/dishes/show.json`
+- To show all items in `xml`, send `get` request on `/api/dishes/show.xml`
