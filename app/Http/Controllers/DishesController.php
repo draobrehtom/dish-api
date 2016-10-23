@@ -17,7 +17,7 @@ class DishesController extends Controller
 
     function create(Request $request, Dish $dish) {
         $dish->fill($request->only($dish->getFillable()))->save();
-        return $this->index();
+        return $dish;
     }
 
     function index($type = '') {
