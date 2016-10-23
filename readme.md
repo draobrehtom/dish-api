@@ -12,7 +12,7 @@
     - email: **admin** (for admin) / **user** (for user)
     - password: **123456** (the same for both)
 
-You are get access token for usage.
+  You are get access token for usage.
 
 - To add an item, send `post` request on `/api/add` with data:
     - title: **< name of the item >**
