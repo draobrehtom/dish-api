@@ -1,4 +1,4 @@
-#Installation
+# Installation
 
 1. Clone the repo
 2. Run `composer install` in project root
@@ -6,7 +6,7 @@
 4. Config database section in `.env` file
 5. Run `php artisan migrate --seed`
 
-#Usage
+# Usage
 
 - To get access token, send `post` request on `/api/login` with data 
     - email: **admin** (for admin) / **user** (for user)
